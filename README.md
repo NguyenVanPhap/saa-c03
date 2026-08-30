@@ -11,10 +11,28 @@ Bộ tài liệu này viết lại 684 câu hỏi trong đề SAA-C03 theo hư�
 | [phan-02-cau-021-040.md](phan-02-cau-021-040.md) | Câu 21–40 | Xong |
 | [phan-03-cau-041-060.md](phan-03-cau-041-060.md) | Câu 41–60 | Xong |
 | [phan-04-cau-061-080.md](phan-04-cau-061-080.md) | Câu 61–80 | Xong |
-| phan-05-cau-081-100.md | Câu 81–100 | Chưa |
+| [phan-05-cau-081-100.md](phan-05-cau-081-100.md) | Câu 81–100 | Xong |
+| phan-06-cau-101-120.md | Câu 101–120 | Chưa |
 | ... | ... | |
 
-Tổng: 684 câu. Đã xong 80.
+Tổng: 684 câu. Đã xong 100.
+
+## Chủ đề lặp lại nhiều nhất (cập nhật sau mỗi 100 câu)
+
+Đề chỉ xoay quanh một số mẫu rất giới hạn. Bảng này đếm số lần mỗi chủ đề đã xuất hiện — nếu còn ít thời gian thì ôn theo thứ tự này. Phân tích chi tiết ở cuối [Phần 5](phan-05-cau-081-100.md).
+
+| Chủ đề | Số lần | Các câu |
+|---|---|---|
+| Hàng đợi làm bộ đệm giữa thành phần nhanh và chậm | 5 | 25, 45, 75, 87, 94 |
+| Secrets Manager tự luân phiên | 4 | 11, 13, 61, 86 |
+| S3 Gateway Endpoint | 4 | 4, 42, 72, 91, 92 |
+| Multi-AZ so với read replica (standby RDS không đọc được) | 4 | 14, 90, 93, 95 |
+| FSx for Windows (Windows + AD + SMB) | 3 | 6, 64, 97 |
+| IAM role thay vì access key tĩnh | 3 | 17, 61, 92 |
+| SQS visibility timeout gây xử lý trùng | 2 | 67, 98 |
+| S3 Object Lock cho WORM | 2 | 53, 85 |
+| ASG scale theo độ sâu hàng đợi | 2 | 8, 81 |
+| Chứng chỉ import vào ACM không tự gia hạn | 2 | 62, 82 |
 
 ## Các câu có đáp án gây tranh chấp
 
