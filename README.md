@@ -12,25 +12,47 @@ Bộ tài liệu này viết lại 684 câu hỏi trong đề SAA-C03 theo hư�
 | [phan-03-cau-041-060.md](phan-03-cau-041-060.md) | Câu 41–60 | Xong |
 | [phan-04-cau-061-080.md](phan-04-cau-061-080.md) | Câu 61–80 | Xong |
 | [phan-05-cau-081-100.md](phan-05-cau-081-100.md) | Câu 81–100 | Xong |
-| phan-06-cau-101-120.md | Câu 101–120 | Chưa |
+| [phan-06-cau-101-120.md](phan-06-cau-101-120.md) | Câu 101–120 | Xong |
+| [phan-07-cau-121-140.md](phan-07-cau-121-140.md) | Câu 121–140 | Xong |
+| [phan-08-cau-141-160.md](phan-08-cau-141-160.md) | Câu 141–160 | Xong |
+| [phan-09-cau-161-180.md](phan-09-cau-161-180.md) | Câu 161–180 | Xong |
+| [phan-10-cau-181-200.md](phan-10-cau-181-200.md) | Câu 181–200 | Xong |
+| [phan-11-cau-201-220.md](phan-11-cau-201-220.md) | Câu 201–220 | Xong |
+| [phan-12-cau-221-240.md](phan-12-cau-221-240.md) | Câu 221–240 | Xong |
+| [phan-13-cau-241-260.md](phan-13-cau-241-260.md) | Câu 241–260 | Xong |
+| [phan-14-cau-261-280.md](phan-14-cau-261-280.md) | Câu 261–280 | Xong |
+| [phan-15-cau-281-300.md](phan-15-cau-281-300.md) | Câu 281–300 | Xong |
+| [phan-16-cau-301-320.md](phan-16-cau-301-320.md) | Câu 301–320 | Xong |
+| phan-17-cau-321-340.md | Câu 321–340 | Chưa |
 | ... | ... | |
 
-Tổng: 684 câu. Đã xong 100.
+Tổng: 684 câu. Đã xong 320.
 
 ## Chủ đề lặp lại nhiều nhất (cập nhật sau mỗi 100 câu)
 
-Đề chỉ xoay quanh một số mẫu rất giới hạn. Bảng này đếm số lần mỗi chủ đề đã xuất hiện — nếu còn ít thời gian thì ôn theo thứ tự này. Phân tích chi tiết ở cuối [Phần 5](phan-05-cau-081-100.md).
+Đề chỉ xoay quanh một số mẫu rất giới hạn. Bảng này đếm số lần mỗi chủ đề đã xuất hiện — nếu còn ít thời gian thì ôn theo thứ tự này. Phân tích chi tiết ở cuối [Phần 10](phan-10-cau-181-200.md).
+
+Cập nhật sau 200 câu:
 
 | Chủ đề | Số lần | Các câu |
 |---|---|---|
-| Hàng đợi làm bộ đệm giữa thành phần nhanh và chậm | 5 | 25, 45, 75, 87, 94 |
+| SQS để tách và làm bền yêu cầu | 8 | 25, 45, 75, 87, 94, 164, 181, 195 |
+| S3 Lifecycle và các tầng lưu trữ | 8 | 12, 69, 113, 126, 147, 153, 160, 199 |
+| Multi-AZ so với read replica | 7 | 14, 90, 144, 182, 187, 191, 193 |
+| CloudFront cho phân phối nội dung | 7 | 83, 104, 131, 141, 155, 166, 183 |
+| Fargate cho container không quản máy | 6 | 58, 112, 128, 163, 187, 198 |
+| IAM role thay vì access key tĩnh | 5 | 17, 61, 92, 179, 185 |
+| S3 Object Lock cho WORM | 5 | 53, 85, 109, 154, 189 |
+| S3 cộng Athena cho phân tích | 5 | 2, 51, 156, 192, 199 |
+| KMS và quản lý khóa mã hóa | 5 | 61, 106, 121, 135, 189 |
 | Secrets Manager tự luân phiên | 4 | 11, 13, 61, 86 |
-| S3 Gateway Endpoint | 4 | 4, 42, 72, 91, 92 |
-| Multi-AZ so với read replica (standby RDS không đọc được) | 4 | 14, 90, 93, 95 |
-| FSx for Windows (Windows + AD + SMB) | 3 | 6, 64, 97 |
-| IAM role thay vì access key tĩnh | 3 | 17, 61, 92 |
+| VPC Endpoint cho truy cập riêng tư | 4 | 4, 76, 176, 185 |
+| Lambda cho xử lý theo sự kiện | 4 | 65, 107, 161, 184 |
+| FSx for Windows (Windows + AD + SMB) | 4 | 6, 64, 97, 186 |
+| Dịch vụ AI cho tài liệu và âm thanh | 3 | 68, 192, 199 |
+| Dịch vụ có quản tương thích công nghệ cũ | 3 | 111, 188, 198 |
+| API Gateway và bảo vệ API | 3 | 158, 180, 200 |
 | SQS visibility timeout gây xử lý trùng | 2 | 67, 98 |
-| S3 Object Lock cho WORM | 2 | 53, 85 |
 | ASG scale theo độ sâu hàng đợi | 2 | 8, 81 |
 | Chứng chỉ import vào ACM không tự gia hạn | 2 | 62, 82 |
 
