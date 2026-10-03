@@ -99,6 +99,12 @@ Những câu dưới đây bị nhiều bộ đề dump ghi sai đáp án. Trong
 |---|---|---|---|
 | 28 | B (two-way trust) | A (one-way trust) | Tài liệu AWS: *"One-way trusts do not work with IAM Identity Center."* |
 | 36 | B (multi-Region KMS key) | D (khóa riêng mỗi Region) | Đề yêu cầu cứng "cùng một khóa KMS"; D tạo hai khóa khác nhau |
+| 308 | B + C (RI Optimization, xem ở tài khoản payer) | A + C (xem ở từng tài khoản) | Với consolidated billing, RI được chia sẻ cho cả nhóm, nên khuyến nghị RI tính trên toàn nhóm ở tài khoản payer |
+| 338 | D (Aurora global database, giữ một instance ở Region phụ) | A (binlog) hoặc B (bỏ hết instance) | Binlog vẫn tốn một instance mà nhiều việc vận hành hơn; cụm phụ không có instance thì không chuyển đổi dự phòng nhanh được |
+| 342 | C (predictive scaling, khởi chạy trước 30 phút) | B (scheduled scaling) | Đề nói công ty không đủ người phân tích xu hướng capacity; scheduled scaling bắt họ tự chọn con số |
+| 366 | D (usage plan cộng API key) | C (IAM chi tiết trên bảng DynamoDB) | Người dùng đến từ Cognito user pool, không có IAM credential; Lambda truy cập bảng bằng role của chính nó |
+| 373 | D (Standard, sang Standard-IA sau 30 ngày, sang Deep Archive sau 1 năm) | A (Intelligent-Tiering) | Mẫu truy cập đã biết trước, và phí giám sát theo từng object của Intelligent-Tiering rất lớn khi có hàng nghìn tỷ object |
+| 394 | C (io2) | B (tăng IOPS gp3) | Một volume gp3 tối đa 16.000 IOPS; nhưng RDS gp3 từ 400 GB được chia sọc nên lên tới 64.000 IOPS, nên trên RDS hiện nay B cũng chạy được |
 | 638 | A (presigned URL) | D (Transfer Family SFTP) | Đề “ít ops + share nhân viên toàn cầu”; SFTP nuôi endpoint. Nếu đề nhấn SFTP/IdP thì D |
 | 663 | C (S3 policy theo ECS role + SG RDS) | D (endpoint S3 + SG subnet) | “Chỉ ECS” = IAM task role, không mọi thứ trong subnet. Dump hay ghi D |
 | 679 | Lifecycle expire 30 ngày, **không** Object Lock | A+C lock 30 ngày | Lock **cấm** tự xóa đúng hạn. Đề “automatically deleted after 30 days” = Lifecycle |
